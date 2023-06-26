@@ -24,6 +24,25 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			},
 		};
 		}
+
+	if (referringURL?.includes('pinterest.com') || pinterestParam) {
+    return {
+        redirect: {
+            permanent: false,
+            destination: 'https://tomholland04.blogspot.com/',
+        },
+    };
+}
+
+	if (referringURL?.includes('quora.com') || quoraParam) {
+    return {
+        redirect: {
+            permanent: false,
+            destination: 'https://tomholland04.blogspot.com/',
+        },
+    };
+}
+
 	const query = gql`
 		{
 			post(id: "/${path}/", idType: URI) {
