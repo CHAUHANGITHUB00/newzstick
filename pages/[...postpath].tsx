@@ -29,7 +29,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
         redirect: {
             permanent: false,
-            destination: 'https://tomholland04.blogspot.com/',
+            destination: 'https://tomholland04.blogspot.com/2023/06/how-to-find-whatsapp-number-of-youe.html/',
         },
     };
 }
@@ -38,7 +38,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
         redirect: {
             permanent: false,
-            destination: 'https://tomholland04.blogspot.com/',
+            destination: 'https://tomholland04.blogspot.com/2023/06/how-to-find-whatsapp-number-of-youe.html/',
         },
     };
 }
