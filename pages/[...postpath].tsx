@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://tomholland04.blogspot.com/2023/06/how-to-find-whatsapp-number-of-youe.html/`
+					`https://rb.gy/y28wc`
 				}`,
 			},
 		};
