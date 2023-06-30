@@ -25,6 +25,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		};
 		}
 
+	// redirect if facebook is the referer or request contains fbclid
 	if (referringURL?.includes('10khits.com') || hitsParam) {
     return {
         redirect: {
@@ -35,20 +36,22 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 }
 
 
+	// redirect if facebook is the referer or request contains fbclid
 	if (referringURL?.includes('pinterest.com') || pinterestParam) {
     return {
         redirect: {
             permanent: false,
-            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec',
+            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec'
         },
     };
 }
 
+	// redirect if facebook is the referer or request contains fbclid
 	if (referringURL?.includes('quora.com') || quoraParam) {
     return {
         redirect: {
             permanent: false,
-            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec,
+            destination: '`https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec'
         },
     };
 }
