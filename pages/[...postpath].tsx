@@ -64,6 +64,17 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	};
 };
 
+	if (referringURL?.includes('threads.net') || threadsNetRef) {
+  return {
+    redirect: {
+      permanent: false,
+      destination: `${
+        `https://threefortressfork.com/pxawz6gw25?key=dba99f626f33ef5c0918b8f43bcfbfec`
+      }`,
+    },
+  };
+}
+
 interface PostProps {
 	post: any;
 	host: string;
